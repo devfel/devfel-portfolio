@@ -1,3 +1,11 @@
+Next to do.
+-Find a background picture to about
+-Add fixed image css effect 
+    example1: https://codepen.io/dropside/pen/bxhke
+    example2: https://codepen.io/mdbootstrap/pen/KgWPwB
+
+
+
 #Contact -> GO TO REASONS to contract, make it small ON MOBILE.
 
 media 799 or less reduce menu height
@@ -6,3 +14,6 @@ media equals 640 or less, reduce the height of each section.
 font family:   neue-haas-grotesk-text
 adjust font size after upload correct font 16 maybe
 
+
+-------------- 31 - aug - 2020 --------------
+add CSS to about/home

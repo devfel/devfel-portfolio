@@ -62,7 +62,17 @@ body {
 
 .about {
   margin-top: 70px; /* Must be the same size as the header/menu height to avoid overlay */
-  background-color: #00c0cb;
+  height: 100vh;
+  background-color: #222222;
+  color: #dddddd;
+  display: flex;
+  justify-content: center; /* separate itens horizontally for flex */
+  align-items: center; /* Align itens vertically for flex */
+  text-align: center;
+}
+
+.about p {
+  max-width: 80%;
 }
 
 .education {
