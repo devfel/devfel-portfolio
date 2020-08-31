@@ -1,0 +1,55 @@
+body,
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+p,
+dd,
+dt,
+dl {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #000000;
+}
+
+nav {
+  background-color: #ffc0cb;
+}
+
+.about {
+  background-color: #00c0cb;
+}
+
+.education {
+  background-color: #ffffcb;
+}
+
+.skills {
+  background-color: #ffff00;
+}
+
+.projects {
+  background-color: #000088;
+}
+
+.reasons {
+  background-color: #099988;
+}
+
+.contact {
+  background-color: #909088;
+}
