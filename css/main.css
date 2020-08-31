@@ -24,13 +24,44 @@ ul {
 
 body {
   background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-nav {
-  background-color: #ffc0cb;
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* separate itens horizontally for flex */
+  align-items: center; /* Align itens vertically for flex */
+
+  height: 70px;
+  background-color: #ffffff;
+}
+.header img {
+  max-height: 80%;
+  margin: 0px 10px;
+}
+.header nav {
+  margin: 0px 30px;
+}
+.header nav ul {
+  display: flex;
+}
+.header nav ul li a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.5s;
+  font-size: 18px;
+}
+.header nav ul li a:hover {
+  padding: 0 10px;
+  color: #919191;
 }
 
 .about {
+  margin-top: 70px; /* Must be the same size as the header/menu height to avoid overlay */
   background-color: #00c0cb;
 }
 
@@ -53,3 +84,8 @@ nav {
 .contact {
   background-color: #909088;
 }
+
+/* media equals 640 or less, reduce the height of each step. 
+media 799 or less reduce menu height
+
+font family:   neue-haas-grotesk-text*/
