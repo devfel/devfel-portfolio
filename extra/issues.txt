@@ -1,6 +1,7 @@
 CSS for Education.
 
-
+replace titles with h1, h2 etc...
+add translation 3d to the menu nav click. 
 
 #Contact -> GO TO REASONS to contract, make it small ON MOBILE.
 
