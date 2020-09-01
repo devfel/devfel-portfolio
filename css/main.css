@@ -24,7 +24,8 @@ ul {
 
 body {
   background-color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto";
+  font-weight: 500;
 }
 
 .header {
@@ -32,11 +33,15 @@ body {
   top: 0;
   width: 100%;
   display: flex;
-  justify-content: space-between; /* separate itens horizontally for flex */
+  justify-content: space-between; /* Separate itens horizontally for flex */
   align-items: center; /* Align itens vertically for flex */
 
-  height: 70px;
-  background-color: #ffffff;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.9);
+
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  z-index: 999;
 }
 .header img {
   max-height: 80%;
@@ -49,30 +54,34 @@ body {
   display: flex;
 }
 .header nav ul li a {
-  padding: 0 10px;
+  padding: 0 14px;
   text-decoration: none;
   color: #000000;
   transition: color 0.5s;
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 .header nav ul li a:hover {
-  padding: 0 10px;
   color: #919191;
 }
 
 .about {
-  margin-top: 70px; /* Must be the same size as the header/menu height to avoid overlay */
   height: 100vh;
   background-color: #222222;
   color: #dddddd;
   display: flex;
-  justify-content: center; /* separate itens horizontally for flex */
+  justify-content: center; /* Separate itens horizontally for flex */
   align-items: center; /* Align itens vertically for flex */
-  text-align: center;
+  text-align: center; /* Align only text to be centrilized word like */
+
+  background-image: url("../imgs/background03.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 .about p {
   max-width: 80%;
+  font-size: 2rem;
 }
 
 .education {
