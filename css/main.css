@@ -375,7 +375,7 @@ body {
   border: none;
   border-bottom: 2px solid #222222;
   color: #252934;
-  background: #fafafa;
+  background: #dddddd;
   font-size: 1rem;
   text-align: center;
   font-family: "roboto";
@@ -400,7 +400,7 @@ body {
 a.disabled {
   pointer-events: none;
   cursor: default;
-  background: #bbbbbb;
+  background: #808080;
 }
 .project-tech img {
   height: 35px;
@@ -415,42 +415,16 @@ a.disabled {
   width: 100%;
 }
 
-.reasons {
-  height: 48vh;
+.contact {
+  height: 200px;
   background-color: #222222;
   color: #dddddd;
   display: flex;
-  justify-content: center; /* Separate itens horizontally for flex */
-  align-items: center; /* Align itens vertically for flex */
-  text-align: center; /* Align only text to be centrilized word like */
-
-  /*background-image: url("../imgs/projects-bkg04.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;*/
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: 22px;
 }
-
-.reasons p {
-  max-width: 80%;
-  font-size: 2rem;
+.email {
+  font-weight: bold;
 }
-
-.contact {
-  height: 48vh;
-  background-color: rgba(0, 0, 0, 0.9);
-  color: #dddddd;
-  display: flex;
-  justify-content: center; /* Separate itens horizontally for flex */
-  align-items: center; /* Align itens vertically for flex */
-  text-align: center; /* Align only text to be centrilized word like */
-}
-
-.contact p {
-  max-width: 80%;
-  font-size: 2rem;
-}
-
-/* media equals 640 or less, reduce the height of each step. 
-media 799 or less reduce menu height
-
-font family:   neue-haas-grotesk-text*/

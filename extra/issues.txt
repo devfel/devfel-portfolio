@@ -1,4 +1,13 @@
+
+- Resize all images and make em local
+
+- Add awsome fonts and use icons for it, especially github and linkedin. 
+
 Breakpoint for projects 999px;
+media equals 640 or less, reduce the height of each step. *Maybe Not needed
+media 799 or less reduce menu height *Maybe Not needed
+
+font family:   neue-haas-grotesk-text *Wont use this.. have to pay. 
 
 incos for tech, gray icons similar to: https://codepen.io/yagoestevez/pen/oapQEJ
 
