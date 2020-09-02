@@ -1,3 +1,7 @@
+Breakpoint for projects 999px;
+
+incos for tech, gray icons similar to: https://codepen.io/yagoestevez/pen/oapQEJ
+
 Some skills examples:
       <ul>
         <li>HTML</li>
