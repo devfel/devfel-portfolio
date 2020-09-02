@@ -23,7 +23,7 @@ ul {
 }
 
 body {
-  background-color: #000000;
+  background-color: #ffffff;
   font-family: "Roboto";
   font-weight: 500;
 }
@@ -44,8 +44,8 @@ body {
   z-index: 999;
 }
 .header img {
-  max-height: 80%;
-  margin: 0px 10px;
+  height: 40%;
+  margin: 0px 30px;
 }
 .header nav {
   margin: 0px 30px;
@@ -384,9 +384,9 @@ body {
   border-radius: 10px;
 }
 .button:hover {
-  background: #222222;
+  background: #a0a0a0;
   color: #fafafa;
-  border-bottom: 2px solid #fafafa;
+  border-bottom: 2px solid #222222;
 }
 .button i {
   font-size: 0.8rem;
@@ -400,7 +400,7 @@ body {
 a.disabled {
   pointer-events: none;
   cursor: default;
-  background: #808080;
+  background: #555555;
 }
 .project-tech img {
   height: 35px;
@@ -427,4 +427,14 @@ a.disabled {
 }
 .email {
   font-weight: bold;
+}
+
+@media screen and (max-width: 999px) {
+  .main-projects {
+    grid-template-columns: 1fr;
+  }
+
+  .main-projects .project {
+    min-width: 410px;
+  }
 }

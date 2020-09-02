@@ -59,6 +59,13 @@ body:before {
 }
 
 
+brand colors:
+#fcfcfc
+#278a9e
+#1ab0a3
+#0dd6a8
+#00fcad
+
 -------------- 01-set-2020/02 --------------
 CSS for skills.
 
