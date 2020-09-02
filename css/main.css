@@ -406,13 +406,48 @@ a.disabled {
   height: 35px;
   margin: 3px;
 }
+.projects > p {
+  text-align: center;
+  color: #333333;
+  position: relative;
 
-reasons {
-  background-color: #099988;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.reasons {
+  height: 48vh;
+  background-color: #222222;
+  color: #dddddd;
+  display: flex;
+  justify-content: center; /* Separate itens horizontally for flex */
+  align-items: center; /* Align itens vertically for flex */
+  text-align: center; /* Align only text to be centrilized word like */
+
+  /*background-image: url("../imgs/projects-bkg04.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;*/
+}
+
+.reasons p {
+  max-width: 80%;
+  font-size: 2rem;
 }
 
 .contact {
-  background-color: #909088;
+  height: 48vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #dddddd;
+  display: flex;
+  justify-content: center; /* Separate itens horizontally for flex */
+  align-items: center; /* Align itens vertically for flex */
+  text-align: center; /* Align only text to be centrilized word like */
+}
+
+.contact p {
+  max-width: 80%;
+  font-size: 2rem;
 }
 
 /* media equals 640 or less, reduce the height of each step. 
