@@ -13,7 +13,39 @@
     <title>Document</title>
   </head>
   <body>
-    <section class="header">
+
+    <div class="window">
+      <div class="header">
+        
+        <div class="burger-container">
+          <div id="burger">
+            <div class="bar topBar"></div>
+            <div class="bar btmBar"></div>
+          </div>
+        </div>
+        <div class="icon icon-apple">
+          <a href="./index.html">
+            <img
+              class="apple-logo"
+              src="./imgs/logo.png"
+              alt="DevFel Logo"
+            />
+          </a>
+        </div>
+        <ul class="menu">
+          <li class="menu-item"><a href="#about">Home</a></li>
+          <li class="menu-item"><a href="#education">Education</a></li>
+          <li class="menu-item"><a href="#skills">CodeSkills</a></li>
+          <li class="menu-item"><a href="#projects">Projects</a></li>
+          <li class="menu-item"><a href="#contact">Contact</a></li>
+          <li class="menu-item"><a href="google.com"><i class="material-icons md-20">cloud_download</i>&nbsp;&nbsp;Resume</a></li>
+        </ul>
+        <div class="shop icon icon-bag"><a href="google.com"><i class="material-icons md-24" title="Resume Download">cloud_download</i></a></div>
+      </div>
+      <div class="content"></div>
+    </div>
+
+    <section class="menu-desktop">
       <img src="./imgs/logo.png" alt="devFel logo" />
       <nav>
         <ul>
@@ -348,5 +380,6 @@
         <p class="email">devfel@gmail.com <i class="material-icons md-24">email</i></p>
         <p>Linkedin Github</p>
     </footer>
+    <script src="./js/menu-mobile.js"></script>
   </body>
 </html>
