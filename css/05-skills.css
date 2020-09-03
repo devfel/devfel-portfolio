@@ -1,0 +1,89 @@
+.skills {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  min-height: 95vh;
+
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: center; /* Separate itens horizontally for flex */
+  align-items: flex-start; /* Align itens vertically for flex */
+  text-align: center; /* Align only text to be centrilized word like */
+  flex-wrap: wrap;
+
+  background-image: url("../imgs/background05.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.skills > h2 {
+  text-align: center;
+  color: #fff;
+  /*padding: 1rem;*/
+  position: relative;
+
+  font-size: 2rem;
+  width: 100%;
+  margin: auto;
+}
+
+.skill-container {
+  background-color: rgba(200, 200, 200, 0.1);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+
+  width: 22%;
+  max-width: 225px;
+  min-width: 205px;
+  height: 240px;
+
+  border-radius: 10px;
+  transition: all 300ms ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Separate itens vertically for flex column */
+  align-items: center; /* Align itens horizontaly for flex column*/
+  text-align: center; /* Align only text to be centrilized word like */
+  margin: 7px 7px;
+}
+
+.skill-container > * {
+  margin: 7px;
+}
+.skill-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  background-color: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  margin: 18px 0px;
+}
+.skill-container:hover .skill-img {
+  transform: scale3d(1.2, 1.2, 1.2);
+}
+.skill-img > img {
+  width: 50px;
+  z-index: 2;
+}
+
+.skill-title {
+  font-size: 15px;
+  padding: 5px 0;
+  margin-bottom: 8px;
+  width: 90%;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.skill-desc {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #dddddd;
+  line-height: 1.6;
+  margin: 4px;
+}

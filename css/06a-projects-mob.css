@@ -1,0 +1,9 @@
+@media screen and (max-width: 999px) {
+  .main-projects {
+    grid-template-columns: 1fr;
+  }
+
+  .main-projects .project {
+    min-width: 410px;
+  }
+}
