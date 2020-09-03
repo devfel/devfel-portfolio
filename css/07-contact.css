@@ -1,13 +1,153 @@
 .contact {
-  height: 200px;
+  height: 700px;
   background-color: #222222;
   color: #dddddd;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  text-align: center;
-  font-size: 22px;
+  text-align: start;
 }
+/* OLD FOOTER
 .email {
   font-weight: bold;
+}
+<p>Want to contact me?</p>
+<p class="email">devfel@gmail.com <i class="material-icons md-24">email</i></p>
+<p>Linkedin Github <i class="fa fa-address-book" aria-hidden="true"></i></p>
+*/
+
+.section-header-title {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 0px;
+  margin-bottom: 50px;
+  font: 700 32px "Roboto", sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.section-header-subtitle {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 0px;
+  margin-bottom: 50px;
+  font: 300 18px "Roboto", sans-serif;
+  letter-spacing: 2px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.direct-contact-container {
+  max-width: 400px;
+  float: right;
+  margin-top: 5px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  margin-left: 10px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+  font: 300 18px "Roboto", sans-serif;
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  color: #bbb;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Social Media Icons */
+.social-media-list {
+  position: relative;
+  font-size: 2.3rem;
+  text-align: center;
+  width: 100%;
+}
+
+.social-media-list li a {
+  color: #fff;
+}
+
+.social-media-list li {
+  position: relative;
+  top: 0;
+  left: 0px;
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  margin: 10px auto;
+  line-height: 70px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(27, 27, 27);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social-media-list li:hover a {
+  color: #111;
+}
+
+.copyright {
+  font: 200 14px "Roboto", sans-serif;
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.8);
 }
