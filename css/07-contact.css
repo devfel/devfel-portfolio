@@ -1,0 +1,13 @@
+.contact {
+  height: 200px;
+  background-color: #222222;
+  color: #dddddd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: 22px;
+}
+.email {
+  font-weight: bold;
+}

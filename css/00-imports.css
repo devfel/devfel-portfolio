@@ -1,0 +1,11 @@
+@import "01-main.css";
+@import "02-menu.css";
+@import "03-about.css";
+@import "04-education.css";
+@import "05-skills.css";
+@import "06-projects.css";
+@import "07-contact.css";
+
+/* Mobile Imports */
+@import "02a-menu-mob.css";
+@import "06a-projects-mob.css";

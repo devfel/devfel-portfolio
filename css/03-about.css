@@ -1,0 +1,19 @@
+.about {
+  height: 100vh;
+  background-color: #222222;
+  color: #dddddd;
+  display: flex;
+  justify-content: center; /* Separate itens horizontally for flex */
+  align-items: center; /* Align itens vertically for flex */
+  text-align: center; /* Align only text to be centrilized word like */
+
+  background-image: url("../imgs/background03.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.about p {
+  max-width: 80%;
+  font-size: 2rem;
+}

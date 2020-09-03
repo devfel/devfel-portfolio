@@ -1,0 +1,35 @@
+.menu-desktop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Separate itens horizontally for flex */
+  align-items: center; /* Align itens vertically for flex */
+
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.9);
+
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  z-index: 999;
+}
+.menu-desktop img {
+  height: 40%;
+  margin: 0px 30px;
+}
+.menu-desktop nav {
+  margin: 0px 30px;
+}
+.menu-desktop nav ul {
+  display: flex;
+}
+.menu-desktop nav ul li a {
+  padding: 0 14px;
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.5s;
+  font-size: 1.2rem;
+}
+.menu-desktop nav ul li a:hover {
+  color: #919191;
+}
