@@ -57,16 +57,11 @@
   /*height: 300px;
     width: 200px;*/
   grid-row: 1/6;
-  margin-right: 14px;
 }
 .main-projects .project .project-picture > img {
   width: 200px;
   height: 300px;
   border-radius: 10px 0 0 10px;
-  filter: grayscale(0);
-}
-.main-projects .project .project-picture > img:hover {
-  filter: grayscale(0);
 }
 
 .main-projects .project .project-tech {
@@ -74,7 +69,7 @@
   grid-column: 2/4;
   display: flex;
   align-items: center;
-  margin: 0 7px;
+  justify-content: center;
 }
 .main-projects .project .project-title {
   grid-row: 2/3;
@@ -153,7 +148,7 @@ a.pb-disabled {
 }
 .project-tech img {
   height: 35px;
-  margin: 3px;
+  margin: 2px;
 }
 .projects > p {
   text-align: center;

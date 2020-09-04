@@ -31,21 +31,3 @@
   color: #ffffff;
   font-weight: bold;
 }
-
-@media screen and (max-width: 499px) and (min-width: 440px) {
-  .about h2 {
-    font-size: 1.7rem;
-  }
-  .about h1 {
-    font-size: 1.8rem;
-  }
-}
-
-@media screen and (max-width: 439px) {
-  .about h2 {
-    font-size: 1.4rem;
-  }
-  .about h1 {
-    font-size: 1.5rem;
-  }
-}
