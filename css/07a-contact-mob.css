@@ -1,0 +1,41 @@
+@media screen and (max-width: 405px) {
+  .contact {
+    height: 600px;
+  }
+
+  .contact-text {
+    font-size: 14px;
+    letter-spacing: 1.3px;
+    color: #bbb;
+  }
+
+  .place {
+    margin-left: 32px;
+  }
+
+  .phone {
+    margin-left: 26px;
+  }
+
+  .gmail {
+    margin-left: 23px;
+  }
+  .social-media-list {
+    font-size: 1.8rem;
+  }
+
+  .social-media-list li {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+
+  .social-media-list li:after {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+  .copyright {
+    font-size: 12px;
+  }
+}
