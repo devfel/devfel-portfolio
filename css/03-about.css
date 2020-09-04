@@ -10,7 +10,7 @@
   background-image: url("../imgs/background03.jpg");
   background-size: cover;
   background-position: center center;
-  background-attachment: initial;
+  background-attachment: fixed;
 }
 
 .about p {
