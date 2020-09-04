@@ -1,0 +1,6 @@
+/* Correcting image attachment for not working on mobile as fixed*/
+@media screen and (max-width: 599px) {
+  .about {
+    background-attachment: initial;
+  }
+}
