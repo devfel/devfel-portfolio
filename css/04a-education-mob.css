@@ -1,0 +1,19 @@
+@media screen and (max-width: 460px) and (min-width: 359px) {
+  .diploma {
+    min-width: 160px;
+    height: 330px;
+  }
+  .diploma-title {
+    font-size: 16px;
+  }
+  .diploma-field {
+    font-size: 13px;
+  }
+  .diploma-year {
+    font-size: 11px;
+    margin-bottom: 3px;
+  }
+  .diploma-area {
+    font-size: 11px;
+  }
+}
