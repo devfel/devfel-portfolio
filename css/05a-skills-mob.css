@@ -4,3 +4,16 @@
     background-attachment: initial;
   }
 }
+
+@media screen and (max-width: 460px) and (min-width: 359px) {
+  .skill-container {
+    min-width: 160px;
+    height: 240px;
+  }
+  .skill-title {
+    font-size: 14px;
+  }
+  .skill-desc {
+    font-size: 12px;
+  }
+}
