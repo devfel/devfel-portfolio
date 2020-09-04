@@ -6,15 +6,12 @@
   justify-content: space-around;
   align-items: center;
   text-align: start;
+
+  /* Max Widh Adjustments for large screens */
+  max-width: 2560px;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* OLD FOOTER
-.email {
-  font-weight: bold;
-}
-<p>Want to contact me?</p>
-<p class="email">devfel@gmail.com <i class="material-icons md-24">email</i></p>
-<p>Linkedin Github <i class="fa fa-address-book" aria-hidden="true"></i></p>
-*/
 
 .section-header-title {
   text-align: center;

@@ -10,9 +10,10 @@
   text-align: center; /* Align only text to be centrilized word like */
   flex-wrap: wrap;
 
-  /*background-image: url("../imgs/education03.jpg");
-    background-size: cover;
-    background-position: center center;*/
+  /* Max Widh Adjustments for large screens */
+  max-width: 2560px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .education > h2 {
   font-size: 2rem;
