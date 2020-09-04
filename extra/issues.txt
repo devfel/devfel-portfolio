@@ -58,6 +58,7 @@ body:before {
   background-size: cover;
 }
 
+Erase Images not Used. 
 
 brand colors:
 #fcfcfc
