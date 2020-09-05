@@ -46,7 +46,7 @@ a {
 .menu-desktop .menu {
   clear: both;
   max-height: 0;
-  transition: max-height 0.5s ease-in-out;
+  transition: max-height 0.4s ease-in-out;
 }
 
 /* menu icon */
