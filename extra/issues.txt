@@ -1,15 +1,35 @@
+- Fix all icon Images (Skill images, download SVG)
+- Add Transition Transform Scale to "Tech images" on Skill with mouse over
+- Try to remove Google Icons and Use Font Awsome instead.
+- Fix all Images (reduce size and use transparency)
 
-- Resize all images and make em local
+- Organize imgs folder
+- Recreat Brand Image
+- Add FaveIcon
 
-- Add awsome fonts and use icons for it, especially github and linkedin. 
+- Erase Images not Used. 
+- Add SmoothScrool for menu selections.
 
-Breakpoint for projects 999px;
-media equals 640 or less, reduce the height of each step. *Maybe Not needed
-media 799 or less reduce menu height *Maybe Not needed
+----------------------------------------
+- Make Tour Videos
+- Add Modal to Video Play.
+- Fix Links to Projects (Live and Code)
+- Fix "Check Github link (FA GitHub) for more projects..."
+ 
+- Fix Content on Education (Date and Desc)
+- Fix Content on Coding Skill (Desc - Use Experience or Tech Desc?)
+
+- Fix Contact Info (Skype, Email and Social Networks - Github, Linkedin, Skype, Email).
+      *Create Skype and be Online.
+      *Fix Linkedin Info.
+      *Fix my gmail Picture.
+
+-- Try to fix Image size on Projects Grid 1. And resize Width if possible.
+-- Try to replace fontsize Px with Rem.
+----------------------------------------
+----------------------------------------
 
 font family:   neue-haas-grotesk-text *Wont use this.. have to pay. 
-
-incos for tech, gray icons similar to: https://codepen.io/yagoestevez/pen/oapQEJ
 
 Some skills examples:
       <ul>
@@ -24,48 +44,7 @@ Some skills examples:
         <li>JQuery</li>
         <li>SASS</li>
       </ul>
-
-add smooth scroll 
-
-replace titles with h1, h2 etc...
-add translation 3d to the menu nav click. 
-
-#Contact -> GO TO REASONS to contract, make it small ON MOBILE.
-
-media 799 or less reduce menu height
-media equals 640 or less, reduce the height of each section. 
-
-font family:   neue-haas-grotesk-text
-adjust font size after upload correct font 16 maybe
-
-replace fontsize with Rem.
-
-Fix background fixed for MOBILE
-Solution example:
-body:before {
-  content: "";
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-  background: url(photos/2452.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-Erase Images not Used. 
-
-brand colors:
-#fcfcfc
-#278a9e
-#1ab0a3
-#0dd6a8
-#00fcad
+      
 
 -------------- 01-set-2020/02 --------------
 CSS for skills.
