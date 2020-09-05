@@ -1,43 +1,13 @@
 .menu-wrapper {
-  width: 100%;
   position: fixed;
+  z-index: 999;
+  /* Max Widh Adjustments for large screens needed*/
 }
 .menu-desktop {
-  top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between; /* Separate itens horizontally for flex */
-  align-items: center; /* Align itens vertically for flex */
-
-  /* Max Widh Adjustments for large screens */
-  max-width: 2560px;
-  margin-left: auto;
-  margin-right: auto;
-
   height: 60px;
-  background-color: rgba(255, 255, 255, 0.9);
-
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
-  z-index: 999;
+  font-family: "Roboto", sans-serif;
 }
 .menu-desktop img {
   height: 40%;
-  margin: 0px 30px;
-}
-.menu-desktop nav {
-  margin: 0px 30px;
-}
-.menu-desktop nav ul {
-  display: flex;
-}
-.menu-desktop nav ul li a {
-  padding: 0 14px;
-  text-decoration: none;
-  color: #000000;
-  transition: color 0.5s;
-  font-size: 1.2rem;
-}
-.menu-desktop nav ul li a:hover {
-  color: #919191;
+  margin: 0px 0px;
 }
