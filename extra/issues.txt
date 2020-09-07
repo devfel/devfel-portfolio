@@ -1,25 +1,30 @@
+- Add Alt to Images.
 - Try to remove Google Icons and Use Font Awsome instead.
-- Recreat Brand Image
-- Add FaveIcon
+- Recreat Brand Image.
+- Add FaveIcon.
 - Add SmoothScrool for menu selections.
 - Add Video Popup/Modal to Video link. 
 
 ----------------------------------------
-- Make Tour Videos
-- Fix Links to Projects (Live and Code)
+- Make Tour Videos.
+- Fix Links to Projects (Live and Code).
 - Fix "Check Github link (FA GitHub) for more projects..."
-- Fix Resume Link
+- Fix Resume Link.
 
-- Fix Content on Education (Date and Desc)
-- Fix Content on Coding Skill (Desc - Use Experience or Tech Desc?)
+- Fix Content on Education (Date and Desc).
+- Fix Content on Coding Skill (Desc - Use Experience or Tech Desc?).
 
 - Fix Contact Info (Skype, Email and Social Networks - Github, Linkedin, Skype, Email).
+      *Fix Github data with name and info. 
       *Create Skype and be Online.
-      *Fix Linkedin Info.
+      *Fix Linkedin Info. (data and recomendations letters and skills)
       *Fix my gmail Picture.
+
+- Buy Domain. (use domain email? maybe)
 
 -- Try to fix Image size on Projects Grid 1. And resize Width if possible.
 -- Try to replace fontsize Px with Rem.
+
 ----------------------------------------
 ----------------------------------------
 
@@ -40,10 +45,10 @@ Some skills examples:
       </ul>
       
 -------------- 07-set-2020/02 --------------
-- Fix all icon Images (Skill images, download SVG)
-- Fix all Images (reduce size and use transparency)
-- Organize imgs folder
-- Add Transition Transform Scale to "Tech images" on Skill with mouse over
+- Fix all icon Images (Skill images, download SVG).
+- Fix all Images (reduce size and use transparency).
+- Organize imgs folder.
+- Add Transition Transform Scale to "Tech images" on Skill with mouse over.
 - Erase Images not Used. 
 
 -------------- 01-set-2020/02 --------------
@@ -54,11 +59,11 @@ CSS for Education.
 
 -------------- 31-aug-2020/02 --------------
 Done
--Find a background picture to about
--Add fixed image css effect 
+-Find a background picture to about.
+-Add fixed image css effect .
     example1: https://codepen.io/dropside/pen/bxhke
     example2: https://codepen.io/mdbootstrap/pen/KgWPwB
 
 
 -------------- 31-aug-2020/01 --------------
-add CSS to about/home
+add CSS to about/home.
