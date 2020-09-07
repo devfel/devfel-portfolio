@@ -1,13 +1,12 @@
 .menu-wrapper {
   position: fixed;
   z-index: 999;
-  /* Max Widh Adjustments for large screens needed*/
 }
 .menu-desktop {
   height: 60px;
   font-family: "Roboto", sans-serif;
 }
 .menu-desktop img {
-  height: 40%;
+  height: 75%;
   margin: 0px 0px;
 }
