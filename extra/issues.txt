@@ -1,5 +1,3 @@
-- Add Alt to Images.
-- Try to remove Google Icons and Use Font Awsome instead.
 - Recreat Brand Image.
 - Add FaveIcon.
 - Add SmoothScrool for menu selections.
@@ -22,6 +20,7 @@
 
 - Buy Domain. (use domain email? maybe)
 
+-- Change Projects to be like: http://www.emilyridge.ie/web-developer-portfolio-galway/
 -- Try to fix Image size on Projects Grid 1. And resize Width if possible.
 -- Try to replace fontsize Px with Rem.
 
@@ -43,8 +42,12 @@ Some skills examples:
         <li>JQuery</li>
         <li>SASS</li>
       </ul>
-      
+
 -------------- 07-set-2020/02 --------------
+- Add Alt to Images.
+- Try to remove Google Icons and Use Font Awsome instead.
+
+-------------- 07-set-2020/01 --------------
 - Fix all icon Images (Skill images, download SVG).
 - Fix all Images (reduce size and use transparency).
 - Organize imgs folder.
