@@ -10,9 +10,7 @@
   text-align: center; /* Align only text to be centrilized word like */
   flex-wrap: wrap;
 
-  background-image: url("../imgs/projects-bkg03.jpg");
-  background-size: cover;
-  background-position: center center;
+  background-color: #dddddd;
 
   /* Max Widh Adjustments for large screens */
   max-width: 2560px;
@@ -93,7 +91,7 @@
   grid-row: 3/4;
   grid-column: 2/4;
   font-size: 14px;
-  color: #919191;
+  color: #818181;
   line-height: 1.4;
   margin: 0 7px;
   text-align: center;
