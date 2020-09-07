@@ -1,4 +1,3 @@
-- Recreat Brand Image.
 - Add FaveIcon.
 - Add SmoothScrool for menu selections.
 - Add Video Popup/Modal to Video link. 
@@ -46,6 +45,7 @@ Some skills examples:
 -------------- 07-set-2020/02 --------------
 - Add Alt to Images.
 - Try to remove Google Icons and Use Font Awsome instead.
+- Recreat Brand Image.
 
 -------------- 07-set-2020/01 --------------
 - Fix all icon Images (Skill images, download SVG).

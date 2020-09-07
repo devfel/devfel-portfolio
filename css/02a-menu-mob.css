@@ -9,6 +9,16 @@ a {
   position: fixed;
   width: 100%;
   background-color: rgba(255, 255, 255, 1);
+
+  min-width: 319px; /* Minimun Widh*/
+  max-width: 2560px; /* Maximum Widh*/
+}
+
+/* Max Widh Adjustments for large screens */
+@media (min-width: 2560px) {
+  .menu-desktop {
+    margin-left: calc((100% - 2560px) / 2);
+  }
 }
 
 .menu-desktop ul {
@@ -37,7 +47,7 @@ a {
   display: block;
   float: left;
   font-size: 2em;
-  padding: 18px 20px;
+  padding: 8px 14px;
   text-decoration: none;
 }
 
