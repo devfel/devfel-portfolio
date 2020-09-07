@@ -1,4 +1,4 @@
-- Fix all icon Images (Skill images, download SVG)
+
 - Add Transition Transform Scale to "Tech images" on Skill with mouse over
 - Try to remove Google Icons and Use Font Awsome instead.
 - Fix all Images (reduce size and use transparency)
@@ -46,6 +46,8 @@ Some skills examples:
         <li>SASS</li>
       </ul>
       
+-------------- 01-set-2020/02 --------------
+- Fix all icon Images (Skill images, download SVG)
 
 -------------- 01-set-2020/02 --------------
 CSS for skills.
