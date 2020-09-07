@@ -1,18 +1,11 @@
-
-- Add Transition Transform Scale to "Tech images" on Skill with mouse over
 - Try to remove Google Icons and Use Font Awsome instead.
-- Fix all Images (reduce size and use transparency)
-
-- Organize imgs folder
 - Recreat Brand Image
 - Add FaveIcon
-
-- Erase Images not Used. 
 - Add SmoothScrool for menu selections.
+- Add Video Popup/Modal to Video link. 
 
 ----------------------------------------
 - Make Tour Videos
-- Add Modal to Video Play.
 - Fix Links to Projects (Live and Code)
 - Fix "Check Github link (FA GitHub) for more projects..."
 - Fix Resume Link
@@ -46,8 +39,12 @@ Some skills examples:
         <li>SASS</li>
       </ul>
       
--------------- 01-set-2020/02 --------------
+-------------- 07-set-2020/02 --------------
 - Fix all icon Images (Skill images, download SVG)
+- Fix all Images (reduce size and use transparency)
+- Organize imgs folder
+- Add Transition Transform Scale to "Tech images" on Skill with mouse over
+- Erase Images not Used. 
 
 -------------- 01-set-2020/02 --------------
 CSS for skills.
