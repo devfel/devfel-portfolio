@@ -76,6 +76,9 @@
   align-items: center;
   justify-content: center;
 }
+.main-projects .project .project-tech > img:hover {
+  transform: scale3d(1.2, 1.2, 1.2);
+}
 .main-projects .project .project-title {
   grid-row: 2/3;
   grid-column: 2/4;

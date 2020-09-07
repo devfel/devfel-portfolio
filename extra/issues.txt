@@ -15,7 +15,8 @@
 - Add Modal to Video Play.
 - Fix Links to Projects (Live and Code)
 - Fix "Check Github link (FA GitHub) for more projects..."
- 
+- Fix Resume Link
+
 - Fix Content on Education (Date and Desc)
 - Fix Content on Coding Skill (Desc - Use Experience or Tech Desc?)
 
