@@ -1,11 +1,9 @@
-- Add FaveIcon.
 - Add SmoothScrool for menu selections.
 - Add Video Popup/Modal to Video link. 
 
 ----------------------------------------
 - Make Tour Videos.
 - Fix Links to Projects (Live and Code).
-- Fix "Check Github link (FA GitHub) for more projects..."
 - Fix Resume Link.
 
 - Fix Content on Education (Date and Desc).
@@ -43,6 +41,8 @@ Some skills examples:
       </ul>
 
 -------------- 07-set-2020/02 --------------
+- Add FaveIcon.
+- Fix "Check Github link (FA GitHub) for more projects..."
 - Add Alt to Images.
 - Try to remove Google Icons and Use Font Awsome instead.
 - Recreat Brand Image.
