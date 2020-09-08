@@ -1,5 +1,4 @@
 - Add SmoothScrool for menu selections.
-- Add Video Popup/Modal to Video link. 
 
 ----------------------------------------
 - Make Tour Videos.
@@ -17,10 +16,10 @@
 
 - Buy Domain. (use domain email? maybe)
 
--- Change Projects to be like: http://www.emilyridge.ie/web-developer-portfolio-galway/
+-- Maybe change Projects to be like: http://www.emilyridge.ie/web-developer-portfolio-galway/
 -- Try to fix Image size on Projects Grid 1. And resize Width if possible.
 -- Try to replace fontsize Px with Rem.
-
+-- Try to fix set-cookie: cname=cvalue; samesite=none; secure
 ----------------------------------------
 ----------------------------------------
 
@@ -39,6 +38,17 @@ Some skills examples:
         <li>JQuery</li>
         <li>SASS</li>
       </ul>
+
+-------------- 08-set-2020/01 --------------
+- Add Video Popup/Modal to Video link. 
+      To add new video the following steps are needed:
+       Add on Index a Section at the End *** <section class="modal-container" data-modal="container-p2"> 
+       Add on Index a Link to Click *** <a data-modal="open-p2" class="project-button remove-click-animation">Video Tour<i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+       Change the P2 to PX on 3 places on Index
+       Add on main.js a *** const modalp2 = new Modal(`[data-modal="open-p2"]`,`[data-modal="close-p2"]`,`[data-modal="container-p2"]`); 
+       Add on main.js a *** modalp2.init();
+       Change the P2 to PX on 4 places on main.js
+
 
 -------------- 07-set-2020/02 --------------
 - Add FaveIcon.

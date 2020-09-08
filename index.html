@@ -262,7 +262,7 @@
             </p>
           </div>
           <div class="project-video-button">
-            <a href="https://google.com" class="project-button">Video Tour<i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            <a data-modal="open-p1" class="project-button remove-click-animation">Video Tour<i class="fa fa-youtube-play" aria-hidden="true"></i></a>
           </div>
           <div class="project-code-button">
             <a href="https://google.com" class="project-button pb-disabled">Code<i class="fa fa-github" aria-hidden="true"></i></a>     
@@ -305,7 +305,7 @@
             </p>
           </div>
           <div class="project-video-button">
-            <a href="https://google.com" class="project-button">Video Tour<i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            <a data-modal="open-p2" class="project-button remove-click-animation">Video Tour<i class="fa fa-youtube-play" aria-hidden="true"></i></a>
           </div>
           <div class="project-code-button">
             <a href="https://google.com" class="project-button">Code<i class="fa fa-github" aria-hidden="true"></i></a>     
@@ -415,6 +415,21 @@
         <div class="copyright">&copy; 2020. ALL OF THE RIGHTS RESERVED</div>
       </div>
     </footer>
+    <script type="module" src="main.js"></script>
     <script src="./js/menu-mobile.js"></script>
-  </body>
+    
+    <section class="modal-container" data-modal="container-p1">
+      <div class="modal">
+        <button data-modal="close-p1" class="close-modal">X</button>
+        <iframe class="video" src="https://www.youtube.com/embed/UF8uR6Z6KLc?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="modal-container" data-modal="container-p2">
+      <div class="modal">
+        <button data-modal="close-p2" class="close-modal">X</button>
+        <iframe class="video" src="https://www.youtube.com/embed/Gk-9Fd2mEnI?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+  </body> 
 </html>
