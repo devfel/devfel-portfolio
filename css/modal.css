@@ -65,6 +65,7 @@
   font-family: sans-serif;
   color: white;
   cursor: pointer;
+  text-align: center;
 }
 .modal iframe {
   width: 213px; /* This change for every media query */
