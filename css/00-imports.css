@@ -5,6 +5,7 @@
 @import "05-skills.css";
 @import "06-projects.css";
 @import "07-contact.css";
+@import "modal.css";
 
 /* Mobile Imports */
 @import "02a-menu-mob.css";
