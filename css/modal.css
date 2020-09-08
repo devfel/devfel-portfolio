@@ -66,6 +66,8 @@
   color: white;
   cursor: pointer;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 .modal iframe {
   width: 213px; /* This change for every media query */
