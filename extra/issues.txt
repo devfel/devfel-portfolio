@@ -1,6 +1,3 @@
-- Add SmoothScrool for menu selections.
-
-----------------------------------------
 - Make Tour Videos.
 - Fix Links to Projects (Live and Code).
 - Fix Resume Link.
@@ -10,6 +7,7 @@
 
 - Fix Contact Info (Skype, Email and Social Networks - Github, Linkedin, Skype, Email).
       *Fix Github data with name and info. 
+      *Fix Github Readme Files for Projects. 
       *Create Skype and be Online.
       *Fix Linkedin Info. (data and recomendations letters and skills)
       *Fix my gmail Picture.
@@ -39,7 +37,13 @@ Some skills examples:
         <li>SASS</li>
       </ul>
 
+----------------------------------------
+FIX DONE ALREADY:
+----------------------------------------
+
 -------------- 08-set-2020/01 --------------
+- Add SmoothScrool for menu selections.
+
 - Add Video Popup/Modal to Video link. 
       To add new video the following steps are needed:
        Add on Index a Section at the End *** <section class="modal-container" data-modal="container-p2"> 
@@ -49,15 +53,12 @@ Some skills examples:
        Add on main.js a *** modalp2.init();
        Change the P2 to PX on 4 places on main.js
 
-
--------------- 07-set-2020/02 --------------
+-------------- 07-set-2020/01 --------------
 - Add FaveIcon.
 - Fix "Check Github link (FA GitHub) for more projects..."
 - Add Alt to Images.
 - Try to remove Google Icons and Use Font Awsome instead.
 - Recreat Brand Image.
-
--------------- 07-set-2020/01 --------------
 - Fix all icon Images (Skill images, download SVG).
 - Fix all Images (reduce size and use transparency).
 - Organize imgs folder.
@@ -65,18 +66,14 @@ Some skills examples:
 - Erase Images not Used. 
 
 -------------- 01-set-2020/02 --------------
-CSS for skills.
+- CSS for skills.
+- CSS for Education.
 
--------------- 01-set-2020/01 --------------
-CSS for Education.
-
--------------- 31-aug-2020/02 --------------
-Done
+-------------- 31-aug-2020/01 --------------
 -Find a background picture to about.
 -Add fixed image css effect .
     example1: https://codepen.io/dropside/pen/bxhke
     example2: https://codepen.io/mdbootstrap/pen/KgWPwB
 
 
--------------- 31-aug-2020/01 --------------
-add CSS to about/home.
+- add CSS to about/home.

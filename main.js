@@ -1,4 +1,5 @@
 import Modal from "./js/modal.js";
+import SmoothScroll from "./js/smooth-scroll.js";
 
 const modalp1 = new Modal(
   `[data-modal="open-p1"]`,
@@ -13,3 +14,8 @@ const modalp2 = new Modal(
   `[data-modal="container-p2"]`
 );
 modalp2.init();
+
+const smoothScroll = new SmoothScroll(
+  `[data-menu="smooth-scroll"] a[href^="#"]`
+);
+smoothScroll.init();
