@@ -61,7 +61,8 @@
   position: absolute;
   background-color: #222222;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
-  font-size: 1.2rem;
+  font-size: 18px;
+  font-family: sans-serif;
   color: white;
   cursor: pointer;
 }
