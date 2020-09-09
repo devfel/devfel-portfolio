@@ -35,6 +35,8 @@ Some skills examples:
         <li>Bootstrap</li>
         <li>JQuery</li>
         <li>SASS</li>
+        babel
+        webpack
       </ul>
 
 ----------------------------------------
