@@ -7,4 +7,6 @@
 
 > Technologies Used
 
-- Pure HTML & CSS
+- HTML
+- CSS
+- Minimal use of JavaScript
