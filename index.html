@@ -30,16 +30,16 @@
   </head>
   <body>
     <div class="menu-wrapper">
-      <section class="menu-desktop">
-        <img class="devfel-logo" src="./imgs/devfel-logo-01.JPG" alt="devFel logo" />
+      <section class="menu-desktop" data-menu="smooth-scroll">
+        <a href="#about"><img class="devfel-logo" src="./imgs/devfel-logo-01.JPG" alt="devFel logo" /></a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-          <ul class="menu" data-menu="smooth-scroll">
-            <li class="menu-item"><a href="#about">Home</a></li>
+          <ul class="menu">
             <li class="menu-item"><a href="#education">Education</a></li>
             <li class="menu-item"><a href="#skills">CodeSkills</a></li>
             <li class="menu-item"><a href="#projects">Projects</a></li>
             <li class="menu-item"><a href="#contact">Contact</a></li>
+            <li class="menu-item"><a href="www.google.com"><i class="fa fa-file-word-o" aria-hidden="true"></i></a></li>
             <li class="menu-item"><a href="www.google.com"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Resume</a></li>
           </ul>
       </section>
@@ -49,10 +49,21 @@
       <div class="about-text">
         <h2>
           Hello, I'm Luiz Felizardo, <br />
-          a FullStack Developer.
+          a Software Engineer.
         </h2>
         <h1>Welcome to DevFel's Portfolio!</h1>
-      </p>
+        <p style="color: white;"><i class="fa fa-envelope" aria-hidden="true"></i> DevFelizardo@gmail.com</p>
+        <ul class="social-media-list">
+          <li><a href="https://www.linkedin.com/in/devfel" target="_blank" class="contact-icon">
+            <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="https://github.com/devfel" target="_blank" class="contact-icon">
+            <i class="fa fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="mailto:devfelizardo@gmail.com" class="contact-icon">
+            <i class="fa fa-envelope" aria-hidden="true"></i></a>
+          </li>
+        </ul>
       </div>
     </section>
 
@@ -65,14 +76,12 @@
           <p>Ph.D</p>
         </div>
         <div class="diploma-field">
-          <p>Administration</p>
+          <p>Management</p>
         </div>
         <div class="diploma-year"><p>Currently in progress...</p></div>
         <div class="diploma-area">
           <p>
-            I love learning and I'm always up for a challenge. Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Dignissimos incidunt
-            doloremque veritatis aliquid ab optio, eum perferendis porro.
+            All courses and subjects needed already fulfilled, only the thesis is left. Current fields of study are smart cities and systems to help solve conflicts related to the use of water and other environment issues. 
           </p>
         </div>
       </div>
@@ -85,11 +94,10 @@
         <div class="diploma-field">
           <p>Computer Science</p>
         </div>
-        <div class="diploma-year"><p>2016</p></div>
+        <div class="diploma-year"><p>2015</p></div>
         <div class="diploma-area">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            quasi nobis autem neque officia eligendi velit debitis numquam.
+            Master in Computer Science and Technology within the concentration area of computational mathematics and the research field of artificial intelligence. More than 20 studies published on these and other topics.
           </p>
         </div>
       </div>
@@ -102,11 +110,10 @@
         <div class="diploma-field">
           <p>Project Management</p>
         </div>
-        <div class="diploma-year"><p>2015</p></div>
+        <div class="diploma-year"><p>2014</p></div>
         <div class="diploma-area">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            quasi nobis autem neque officia eligendi velit debitis numquam.
+            Project Management MBA with focus on studying The Project Management Body of Knowledge (PMBOK), Business Process Model (BPM) and Business Process Model and Notation (BPMN).
           </p>
         </div>
       </div>
@@ -119,11 +126,10 @@
         <div class="diploma-field">
           <p>Computer Science</p>
         </div>
-        <div class="diploma-year"><p>2015</p></div>
+        <div class="diploma-year"><p>2012</p></div>
         <div class="diploma-area">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            quasi nobis autem neque officia eligendi velit debitis numquam.
+            Bachelor Degree in Computer Science with both research and intern information technology related experience during the course. 
           </p>
         </div>
       </div>
@@ -132,99 +138,109 @@
     <section class="skills" id="skills">
       <h2>Coding Skills</h2>
 
-      <div class="skill-container">
-        <div class="skill-img">
-          <img
-            src="./imgs/icons/html-96.svg"
-            alt="html 5 logo"
-            class="skills-icons"
-          />
+      <div class="skill-cards">
+        <div class="skill-container">
+          <div class="skill-img">
+            <img
+              src="./imgs/icons/html-96.svg"
+              alt="html 5 logo"
+              class="skills-icons"
+            />
+          </div>
+          <div class="skill-title">
+            <p>HTML 5</p>
+          </div>
         </div>
-        <div class="skill-title">
-          <p>HTML 5</p>
-        </div>
-        <div class="skill-desc">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing numquam.</p>
-        </div>
-      </div>
 
-      <div class="skill-container">
-        <div class="skill-img">
-          <img
-            src="./imgs/icons/css-96.svg"
-            alt="css 3 logo"
-            class="skills-icons"
-          />
+        <div class="skill-container">
+          <div class="skill-img">
+            <img
+              src="./imgs/icons/css-96.svg"
+              alt="css 3 logo"
+              class="skills-icons"
+            />
+          </div>
+          <div class="skill-title">
+            <p>CSS 3</p>
+          </div>
         </div>
-        <div class="skill-title">
-          <p>CSS 3</p>
-        </div>
-        <div class="skill-desc">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing numquam.</p>
-        </div>
-      </div>
 
-      <div class="skill-container">
-        <div class="skill-img">
-          <img
-            src="./imgs/icons/javascript-96.svg"
-            alt="javascript logo"
-            class="skills-icons"
-          />
+        <div class="skill-container">
+          <div class="skill-img">
+            <img
+              src="./imgs/icons/javascript-96.svg"
+              alt="javascript logo"
+              class="skills-icons"
+            />
+          </div>
+          <div class="skill-title">
+            <p>JavaScript</p>
+          </div>
         </div>
-        <div class="skill-title">
-          <p>JavaScript</p>
-        </div>
-        <div class="skill-desc">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing numquam.</p>
-        </div>
-      </div>
 
-      <div class="skill-container">
-        <div class="skill-img">
-          <img
-            src="./imgs/icons/nodejs-192.png"
-            alt="node js logo"
-            class="skills-icons"
-          />
+        <div class="skill-container">
+          <div class="skill-img">
+            <img
+              src="./imgs/icons/react-192.png"
+              alt="react logo"
+              class="skills-icons"
+            />
+          </div>
+          <div class="skill-title">
+            <p>React</p>
+          </div>
         </div>
-        <div class="skill-title">
-          <p>NodeJS</p>
-        </div>
-        <div class="skill-desc">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing numquam.</p>
-        </div>
-      </div>
 
-      <div class="skill-container">
-        <div class="skill-img">
-          <img
-            src="./imgs/icons/react-192.png"
-            alt="react logo"
-            class="skills-icons"
-          />
+        <div class="skill-container">
+          <div class="skill-img">
+            <img
+              src="./imgs/icons/bootstrap-96.svg"
+              alt="bootstrap logo"
+              class="skills-icons"
+            />
+          </div>
+          <div class="skill-title">
+            <p>Bootstrap</p>
+          </div>
         </div>
-        <div class="skill-title">
-          <p>React</p>
-        </div>
-        <div class="skill-desc">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing numquam.</p>
-        </div>
-      </div>
 
-      <div class="skill-container">
-        <div class="skill-img">
-          <img
-            src="imgs/icons/gatsby-96.svg"
-            alt="gatsby logo"
-            class="skills-icons"
-          />
+        <div class="skill-container">
+          <div class="skill-img">
+            <img
+              src="./imgs/icons/json_96.svg"
+              alt="json logo"
+              class="skills-icons"
+            />
+          </div>
+          <div class="skill-title">
+            <p>JSON</p>
+          </div>
         </div>
-        <div class="skill-title">
-          <p>Gatsby</p>
+
+        <div class="skill-container">
+          <div class="skill-img">
+            <img
+              src="imgs/icons/git-96.svg"
+              alt="git logo"
+              class="skills-icons"
+            />
+          </div>
+          <div class="skill-title">
+            <p>Git</p>
+          </div>
         </div>
-        <div class="skill-desc">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing numquam.</p>
+
+        <div class="skill-container">
+          <div class="skill-img">
+            <img
+              src="imgs/icons/github-96.svg"
+              alt="github logo"
+              class="skills-icons"
+            />
+          </div>
+          <div class="skill-title">
+            <p>Github</p>
+          </div>
         </div>
       </div>
     </div>
@@ -265,10 +281,10 @@
             <a data-modal="open-p1" class="project-button remove-click-animation">Video Tour<i class="fa fa-youtube-play" aria-hidden="true"></i></a>
           </div>
           <div class="project-code-button">
-            <a href="https://google.com" class="project-button pb-disabled">Code<i class="fa fa-github" aria-hidden="true"></i></a>     
+            <a href="https://github.com/devfel/tribute-steve-jobs" target="_blank" class="project-button">Code<i class="fa fa-github" aria-hidden="true"></i></a>     
           </div>
           <div class="project-try-button">
-            <a href="https://google.com" class="project-button">Live<i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <a href="https://devfel.github.io/tribute-steve-jobs/" target="_blank" class="project-button">Live<i class="fa fa-external-link" aria-hidden="true"></i></a>
           </div>
         </div>
 
@@ -308,17 +324,17 @@
             <a data-modal="open-p2" class="project-button remove-click-animation">Video Tour<i class="fa fa-youtube-play" aria-hidden="true"></i></a>
           </div>
           <div class="project-code-button">
-            <a href="https://google.com" class="project-button">Code<i class="fa fa-github" aria-hidden="true"></i></a>     
+            <a href="https://github.com/devfel/machines-house" target="_blank" class="project-button">Code<i class="fa fa-github" aria-hidden="true"></i></a>     
           </div>
           <div class="project-try-button">
-            <a href="https://google.com" class="project-button">Live<i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <a href="https://devfel.github.io/machines-house/" target="_blank" class="project-button">Live<i class="fa fa-external-link" aria-hidden="true"></i></a>
           </div>
         </div>
 
         <div class="project">
           <div class="project-picture">
             <img
-              src="./imgs/project01.JPG"
+              src="./imgs/project03.jpg"
               alt="Project Example"
             />
           </div>
@@ -344,45 +360,33 @@
               class="tech-img"
             />
             <img
-              src="./imgs/icons/redux-96.svg"
-              alt="redux logo"
-              class="tech-img"
-            />
-            <img
-              src="./imgs/icons/nodejs-192.png"
-              alt="node js logo"
-              class="tech-img"
-            />
-            <img
-              src="./imgs/icons/docker-96.svg"
-              alt="docker logo"
+              src="./imgs/icons/json_96.svg"
+              alt="json logo"
               class="tech-img"
             />
           </div>
           <div class="project-title">
-            <p>Project One</p>
+            <p>Board Games Listing</p>
           </div>
           <div class="project-description">
             <p>
-              Project One Small Description. Lorem ipsum dolor, sit amet
-              consectetur adipisicing elit. Lorem ipsum dolor, sit amet
-              consectetur adipisicing elit.
+              An react project done to list various bord games using a JSON API to fetch the data. The project list the games, show each of their ratings and show a little description on mouseover. 
             </p>
           </div>
           <div class="project-video-button">
-            <a href="https://google.com" class="project-button pb-disabled">Video Tour<i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            <a href="#" class="project-button pb-disabled">Video Tour<i class="fa fa-youtube-play" aria-hidden="true"></i></a>
           </div>
           <div class="project-code-button">
-            <a href="https://google.com" class="project-button">Code<i class="fa fa-github" aria-hidden="true"></i></a>     
+            <a href="https://github.com/devfel/boardgames" target="_blank" class="project-button">Code<i class="fa fa-github" aria-hidden="true"></i></a>     
           </div>
           <div class="project-try-button">
-            <a href="https://google.com" class="project-button">Live<i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <a href="https://devfel.github.io/boardgames/" target="_blank" class="project-button">Live<i class="fa fa-external-link" aria-hidden="true"></i></a>
           </div>
         </div>
         
 
       </div>
-      <p>Check my <a href="https://github.com/devfel" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a> for more projects...</p>
+      <p>Check my <a href="https://github.com/devfel" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a> & <a href="https://codepen.io/devfel" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a> for more projects...</p>
     </section>
 
     <footer class="contact" id="contact">
@@ -391,23 +395,22 @@
         <h2 class="section-header-subtitle">Get in touch with Felizardo</h1>
         <ul class="contact-list">
           <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">World - Let's do it remotely!</span></i></li>
-          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
-          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">emailme@gmail.com</a></span></i></li>
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:devfelizardo@gmail.com" title="Send me an email">DevFelizardo@gmail.com</a></span></i></li>
         </ul>
 
         <hr>
         <ul class="social-media-list">
-          <li><a href="#" target="_blank" class="contact-icon">
+          <li><a href="https://www.linkedin.com/in/devfel" target="_blank" class="contact-icon">
+              <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="https://github.com/devfel" target="_blank" class="contact-icon">
             <i class="fa fa-github" aria-hidden="true"></i></a>
           </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-twitter" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-instagram" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="#" target="_blank" class="contact-icon">
+          <li><a href="https://codepen.io/devfel" target="_blank" class="contact-icon">
             <i class="fa fa-codepen" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="https://www.freecodecamp.org/felizardo" target="_blank" class="contact-icon">
+            <i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
           </li>
         </ul>
         <hr>
