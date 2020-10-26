@@ -1,59 +1,48 @@
 - Make Tour Videos.
-- Fix Links to Projects (Live and Code).
-- Fix Resume Link.
-
-- Fix Content on Education (Date and Desc).
-- Fix Content on Coding Skill (Desc - Use Experience or Tech Desc?).
-
-- Fix Contact Info (Skype, Email and Social Networks - Github, Linkedin, Skype, Email).
-      *Fix Github data with name and info. 
-      *Fix Github Readme Files for Projects. 
-      *Create Skype and be Online.
-      *Fix Linkedin Info. (data and recomendations letters and skills)
-      *Fix my gmail Picture.
-
-- Buy Domain. (use domain email? maybe)
 
 -- Maybe change Projects to be like: http://www.emilyridge.ie/web-developer-portfolio-galway/
 -- Try to fix Image size on Projects Grid 1. And resize Width if possible.
 -- Try to replace fontsize Px with Rem.
 -- Try to fix set-cookie: cname=cvalue; samesite=none; secure
+-- Maybe use domain.
+-- Create Skype ACC and Add to the site.
+
 ----------------------------------------
 ----------------------------------------
+ADD NEW VIDEO:
+----------------------------------------
+----------------------------------------
+To add new video the following steps are needed:
+  Add on Index a Section at the End *** <section class="modal-container" data-modal="container-p2"> 
+  Add on Index a Link to Click *** <a data-modal="open-p2" class="project-button remove-click-animation">Video Tour<i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+  Change the P2 to PX on 3 places on Index
+  Add on main.js a *** const modalp2 = new Modal(`[data-modal="open-p2"]`,`[data-modal="close-p2"]`,`[data-modal="container-p2"]`); 
+  Add on main.js a *** modalp2.init();
+  Change the P2 to PX on 5 places on main.js
 
-font family:   neue-haas-grotesk-text *Wont use this.. have to pay. 
 
-Some skills examples:
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Redux</li>
-        <li>Php</li>
-        <li>Git</li>
-        <li>Bootstrap</li>
-        <li>JQuery</li>
-        <li>SASS</li>
-        babel
-        webpack
-      </ul>
-
+----------------------------------------
 ----------------------------------------
 FIX DONE ALREADY:
 ----------------------------------------
+----------------------------------------
+
+-------------- 10-set-2020 --------------
+
+- Buy Domain. 
+- Fix Contact Info (Skype, Email and Social Networks - Github, Linkedin, Skype, Email).
+      *Fix Github data with name and info. 
+      *Fix Github Readme Files for Projects. 
+      *Fix Linkedin Info. (data and recomendations letters and skills)
+      *Fix my gmail Picture.
 
 -------------- 08-set-2020/01 --------------
 - Add SmoothScrool for menu selections.
-
 - Add Video Popup/Modal to Video link. 
-      To add new video the following steps are needed:
-       Add on Index a Section at the End *** <section class="modal-container" data-modal="container-p2"> 
-       Add on Index a Link to Click *** <a data-modal="open-p2" class="project-button remove-click-animation">Video Tour<i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-       Change the P2 to PX on 3 places on Index
-       Add on main.js a *** const modalp2 = new Modal(`[data-modal="open-p2"]`,`[data-modal="close-p2"]`,`[data-modal="container-p2"]`); 
-       Add on main.js a *** modalp2.init();
-       Change the P2 to PX on 4 places on main.js
+- Fix Links to Projects (Live and Code).
+- Fix Resume Link.
+- Fix Content on Education (Date and Desc).
+- Fix Content on Coding Skill (Desc - Use Experience or Tech Desc?).
 
 -------------- 07-set-2020/01 --------------
 - Add FaveIcon.
@@ -79,3 +68,27 @@ FIX DONE ALREADY:
 
 
 - add CSS to about/home.
+
+----------------------------------------
+----------------------------------------
+OTHER INFORMATION
+----------------------------------------
+----------------------------------------
+
+Some skills examples:
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Redux</li>
+        <li>Php</li>
+        <li>Git</li>
+        <li>Bootstrap</li>
+        <li>JQuery</li>
+        <li>SASS</li>
+        babel
+        webpack
+      </ul>
+
+font family:   neue-haas-grotesk-text *Wont use this.. have to pay. 
