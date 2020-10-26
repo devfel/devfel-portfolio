@@ -20,6 +20,12 @@ To add new video the following steps are needed:
   Add on main.js a *** modalp2.init();
   Change the P2 to PX on 5 places on main.js
 
+PROJECTS IDS:
+p1 = Steve Jobs Tribute
+p2 = Machines House
+p3 = Board Games Listing
+p4 = Floss/Thread Converter
+
 
 ----------------------------------------
 ----------------------------------------
