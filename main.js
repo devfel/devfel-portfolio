@@ -8,12 +8,12 @@ const modalp1 = new Modal(
 );
 modalp1.init();
 
-const modalp2 = new Modal(
-  `[data-modal="open-p2"]`,
-  `[data-modal="close-p2"]`,
-  `[data-modal="container-p2"]`
+const modalp4 = new Modal(
+  `[data-modal="open-p4"]`,
+  `[data-modal="close-p4"]`,
+  `[data-modal="container-p4"]`
 );
-modalp2.init();
+modalp4.init();
 
 const smoothScroll = new SmoothScroll(
   `[data-menu="smooth-scroll"] a[href^="#"]`
