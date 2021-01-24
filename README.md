@@ -16,10 +16,10 @@
 ---
 
 <p align="center"> 
-This is my own portfolio page to show skills abilities and projects.
+This is my own portfolio page to show skills abilities and projects. <br/>
 Responsive page built from scratch using only HTML, CSS and minimal JavaScript.</p>
   <p align="center">
-    <img  width="600px" src="./assets/TEXTO.gif" alt="ALT-TEXT-EXAMPLE"></a>
+    <img  width="600px" src="./extra/dev-fel-portfolio.gif" alt="DevFel Portfolio"></a>
   </p>
 
 ---
