@@ -84,7 +84,7 @@ This project require no external dependecies.
 
 ## 📝 Liceses <a name = "licenses"></a>
 
-- Distributed under the MIT License - see the [LICENSE.md](https://github.com/devfel/github-readme-template/blob/master/LICENSE.md) file for details.
+- Distributed under the MIT License - see the [LICENSE.md](https://github.com/devfel/devfel-portfolio/blob/master/LICENSE.md) file for details.
 
 ---
 
